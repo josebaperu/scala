@@ -30,8 +30,12 @@ object ScalaOne extends App{
   val puppy = new Puppy("pluto")
   puppy.eat("meat")
 
+  object TheObj {
+    val piNumber: Double = 3.1416
 
-
-
-
+    def apply(x:Int): Int = x*x
+  }
+  println(TheObj.piNumber)
+  println(TheObj.apply(3))
+  println(TheObj(3))
 }
