@@ -2,13 +2,12 @@ package com.example.pkg
 
 object Methods extends App {
 
-  object Upper {
+  private object Upper {
     def toUpperCase(strings: String*): Seq[String] = {
       strings.map(_.toUpperCase)
     }
   }
-  val s_object =  Upper
-  println(s_object.toUpperCase("a","b","c"))
+  println(Upper.toUpperCase("a","b","c"))
 
   class Lower {
     def toLowerCase(strings: String*): Seq[String] = {
