@@ -1,4 +1,5 @@
-package com.example.pkg
+package com.example.pkg.begginersTutorial
+
 object MatchExpression {
   def main(args: Array[String]) {
     val age = 18

@@ -1,4 +1,4 @@
-package com.example.pkg
+package com.example.pkg.begginersTutorial
 
 object FunctionEx {
   def minus(x: Int = 1, y: Int = 1) = {

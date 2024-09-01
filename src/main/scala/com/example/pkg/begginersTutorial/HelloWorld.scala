@@ -1,4 +1,4 @@
-package com.example.pkg
+package com.example.pkg.begginersTutorial
 
 object HelloWorld {
 
