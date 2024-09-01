@@ -17,6 +17,7 @@ object FunctionEx {
 
     println(minus())
     println(FunctionEx.minus(2, 1))
+    150
   }
 
 }
